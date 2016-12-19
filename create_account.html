@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Create Account</title>
+<link href="bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="custom.css">
+</head>
+<body class="create">
+<div class="container">
+<a href="home.php"><h1> Super Swell Story Sharing Site!</h1></a>
+<h1> New User?</h1>
+	<div class="row">
+		<div class="col-sm-4 col-sm-offset-4 forms">
+		<form action = "creation.php" method = "POST">   <!--This is the main login page it calls the redirect page to verify the username.-->
+		<h4> Create an Account:</h4>
+		<label> Username <input type="text" name ="usern" required/> </label><br>
+		<label> Password <input type="password" name ="passw" required/> </label><br>
+		<label> Verify Password <input type="password" name ="verify_password" required/> </label>
+		<input class="submit" type = "submit" value="Submit"/>
+	</form>
+		</div>
+	</div>
+</div>
+</body>
+</html>
